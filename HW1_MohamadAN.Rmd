@@ -79,6 +79,6 @@ https://twitter.com/JosephTumber/status/1350185715976470531
 
 In my opinion, the fifth circle is a bit tricky which is related to the creative use of outliers. This circle is selected since the decision on how to deal with outliers is confusing; as they affect statistical analysis and at the same time it is SOMETIMES hard to decide whether they represent incorrect measurement or not. As such, if the analyst does not have enough information on whether the outlier is a possible measurement or a biased observation, s/he would most probably take the decision that would give better results. But in any way, this is still considered unethical.
 
-# Q7. Research ethics. 
+# Q7. Knit PDF. 
 
 Done
