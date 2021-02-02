@@ -1,0 +1,84 @@
+---
+title: "ENG MGT 6413 HW1"
+output:
+  pdf_document: default
+  html_notebook: default
+  html_document:
+    df_print: paged
+  word_document: default
+---
+__Author__: Mohamad Abdul Nabi  
+__Date__: February 2, 2021  
+
+# Q1.  Load relevant libraries.
+```{r results = 'hide', message= FALSE} 
+library(tidyverse)
+library (haven)
+```
+# Q2. Import data.  
+```{r}
+mto_data<-read_dta('Data/mto_sci_puf_cells_20130206.dta')
+mto_data
+```
+
+# Q3. RMarkdown formatting.  
+
+## 1. Add information to the metadata at the top. For example, author and date.  
+
+Added Above.  
+
+## 2. Demonstrate two levels of headers.  
+
+Reflected in the PDF structure
+
+## 3. Demonstrate bold text.  
+
+**bold** and __bold__  
+
+## 4. Demonstrate an ordered or unordered list.   
+
+* Unordered list
+* item 2
+  + sub-item 1
+  + sub-item 2
+
+1. Ordered list
+2. item 2
+   + sub-item 1
+   + sub-item 2  
+
+## 5. Insert a random image.  
+
+image: ![](b384e1600ccdd193ec4c66224990fd8a.jpg)  
+
+## 6. Demonstrate inline code.  
+A rectangle whose sides are a = 2 and b = 2 :...  
+
+The area of the rectangle is a times b, which is : `r 2 * 2`.  
+
+
+## 7. Change the display options for the R chunk where you load the libraries so that it only shows the codeand none of the output.  
+
+The coded is added in the Chunk above where the libraries are loaded. Furthermore, I had a warning that is generated when i load the tidyverse library. Thus, I had to add a code in order not to display it. 
+
+# Q4. Workflow: basics.  
+
+```{r}
+# my_variable <- 10
+# my_varıable
+# Error: object'my_varıable'not found
+```
+The actual variable ( my_variable) that has been declared or defined is different than the one called in the second line (my_varıable). The letter ı is being entered without the upper dot. Thus, my_varıable is being called without being declared or initialized.  
+
+# Q5. Workflow: scripts.  
+One good tip i learned from the given link is the ability to have multiple scripts side by side or working on different windows. This can be done by pressing on the button next to save. Since it is hard to show how this was done in this knitted document. Please find below the link to the tip.
+
+https://twitter.com/JosephTumber/status/1350185715976470531
+
+# Q6. Research ethics.  
+
+In my opinion, the fifth circle is a bit tricky which is related to the creative use of outliers. This circle is selected since the decision on how to deal with outliers is confusing; as they affect statistical analysis and at the same time it is SOMETIMES hard to decide whether they represent incorrect measurement or not. As such, if the analyst does not have enough information on whether the outlier is a possible measurement or a biased observation, s/he would most probably take the decision that would give better results. But in any way, this is still considered unethical.
+
+# Q7. Research ethics. 
+
+Done
